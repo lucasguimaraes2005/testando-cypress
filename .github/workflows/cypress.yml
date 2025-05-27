@@ -28,7 +28,7 @@ jobs:
           CI: true
 
       - name: Aguarda a aplicação subir
-        run: npx wait-on http://localhost:3000
+        run: npx wait-on http://localhost:3001
 
       - name: Executa testes Cypress
         run: npx cypress run
